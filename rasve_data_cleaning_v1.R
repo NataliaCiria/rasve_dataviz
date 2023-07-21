@@ -2,7 +2,15 @@ library(dplyr)
 library(tidyr) #Data cleaning
 library(ggplot2) #Plot graphs
 
-outbreaks<-read.csv("animal_outbreaks.csv", sep=";", stringsAsFactors = TRUE)
+outbreaks<-read.csv("rasve_data.csv", sep=";", stringsAsFactors = TRUE)%>%
+  mutate(`N foco`=1,
+    index=row_number())%>%
+  arrange(desc(index))%>% 
+  group_by(`Código`)%>%
+  mutate(`n_foco`=cumsum(`N foco`),
+    id_foco=paste0(`Código`,"_",`n_foco`))%>% 
+  arrange(index)%>% 
+  ungroup()
 
 animals<-outbreaks%>%
   select(outbreak_id, starts_with("susceptible"))%>%

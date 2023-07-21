@@ -43,19 +43,22 @@ get_rasve_table<-function(url="https://servicio.mapa.gob.es/rasve/Publico/Public
   
 }
 
-ES_TB_url<-"https://servicio.mapa.gob.es/rasve/Publico/Publico/BuscadorFocos.aspx?cmbpais=11&cmbenfermedades=274"
-focos_tb<-get_rasve_table(url=ES_TB_url)
+#ES_TB_url<-"https://servicio.mapa.gob.es/rasve/Publico/Publico/BuscadorFocos.aspx?cmbpais=11&cmbenfermedades=274"
+rasve_data<-read.csv("rasve_data.csv", sep=";", row.names = NULL, check.names=FALSE)
+rasve_data$`Fecha de confirmación`<- as.Date(rasve_data$`Fecha de confirmación`, format = "%d/%m/%Y")
 
-focos_tb$`Fecha de confirmación`<- as.Date(focos_tb$`Fecha de confirmación`, format = "%d/%m/%Y")
+rasve_new_data<-get_rasve_table()
+rasve_new_data$`Fecha de confirmación`<- as.Date(rasve_new_data$`Fecha de confirmación`, format = "%d/%m/%Y")
+dim(rasve_data)
+dim(rasve_new_data)
 
-new_last_event<-max(focos_tb$`Fecha de confirmación`)
-last_event<-load(last_event)
+if(any(rasve_new_data$`Fecha de confirmación`>max(rasve_data$`Fecha de confirmación`))){
+  rasve_data<-rbind(rasve_new_data,rasve_data)
+}
+
 
 #update last event
 if(new_last_event>last_event){
   last_event<-new_last_event
   save(last_event, file="last_event.Rdata")
 }
-
-
-rasve_data<-get_rasve_table()

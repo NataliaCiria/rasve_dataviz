@@ -30,7 +30,7 @@ d3.csv("affected_by_disease.csv", function(data) {
 
 // Add X axis
 var x = d3.scaleLinear()
-  .domain([0, 13000])
+  .domain([0, 10000])
   .range([ 0, width]);
 svg.append("g")
   .attr("transform", "translate(0," + height + ")")
