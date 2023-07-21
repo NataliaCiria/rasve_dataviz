@@ -1,4 +1,4 @@
-﻿outbreak_id;code;focus_type;country;region;province;livestock_region;municipality;uvl;disease;no._of_affected_species;serotype;species;confirmation_date
+﻿outbreak_id;code;focus_type;country;region;province;livestock_region;municipality;uvl;disease;no_of_affected_species;serotype;species;confirmation_date
 2023/5_5;2023/5   ;Primario;España;ANDALUCÍA;CÓRDOBA;MONTORO (ALTO GUADALQUIVIR);Adamuz;Córdoba;Enfermedad hemorrágica epizoótica;1;Pendiente;Bovinos;06/07/2023
 2023/4_6;2023/4   ;Primario;España;ANDALUCÍA;CÓRDOBA;VILLANUEVA DE CÓRDOBA (PEDROCHES III);Cardeña;Córdoba;Enfermedad hemorrágica epizoótica;1;Pendiente;Bovinos;06/07/2023
 2023/3_6;2023/3   ;Primario;España;ANDALUCÍA;SEVILLA;CAZALLA DE LA SIERRA (SIERRA NORTE);Pedroso, El;Sevilla;Enfermedad hemorrágica epizoótica;1;Pendiente;Bovinos;04/07/2023
