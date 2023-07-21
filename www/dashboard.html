@@ -24,13 +24,39 @@
       .attr("transform",
             "translate(" + margin.left + "," + margin.top + ")");
   
+ function countOccurrencesOfUniqueValues(data, key) {
+  const occurrencesMap = {};
+
+  // Loop through the array of objects
+  for (const item of data) {
+    const value = item[key];
+
+    // If the value is encountered for the first time, initialize the count to 1
+    if (!occurrencesMap[value]) {
+      occurrencesMap[value] = 1;
+    } else {
+      // If the value is already in the map, increment the count
+      occurrencesMap[value]++;
+    }
+  }
+
+  return occurrencesMap;
+}
+
+
+function objectToArray(obj) {
+  return Object.entries(obj).map(([key, value]) => ({ key, value }));
+}
 
 // Parse the Data
-d3.csv("affected_by_disease.csv", function(data) {
+d3.csv("outbreaks.csv", function(data) {
+
+const outbreaks_count = countOccurrencesOfUniqueValues(data, 'disease');
+const outbreaks_count_array = objectToArray(outbreaks_count);
 
 // Add X axis
 var x = d3.scaleLinear()
-  .domain([0, 10000])
+  .domain([0, d3.max(outbreaks_count_array.map(d => +d.value))])
   .range([ 0, width]);
 svg.append("g")
   .attr("transform", "translate(0," + height + ")")
@@ -42,19 +68,19 @@ svg.append("g")
 // Y axis
 var y = d3.scaleBand()
   .range([ 0, height ])
-  .domain(data.map(function(d) { return d.disease; }))
+  .domain(outbreaks_count_array.map(function(d) { return d.key; }))
   .padding(.1);
 svg.append("g")
   .call(d3.axisLeft(y))
 
 //Bars
 svg.selectAll("myRect")
-  .data(data)
+  .data(outbreaks_count_array)
   .enter()
   .append("rect")
   .attr("x", x(0) )
-  .attr("y", function(d) { return y(d.disease); })
-  .attr("width", function(d) { return x(d.affected); })
+  .attr("y", function(d) { return y(d.key); })
+  .attr("width", function(d) { return x(d.value); })
   .attr("height", y.bandwidth() )
   .attr("fill", "#69b3a2")
 
@@ -65,6 +91,9 @@ svg.selectAll("myRect")
   // .attr("height", function(d) { return height - y(d.affected); })
   // .attr("fill", "#69b3a2")
 
+console.log(outbreaks_count)
+
 })
+
 
 </script>
