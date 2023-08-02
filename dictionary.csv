@@ -1,0 +1,54 @@
+﻿lit_es;lit_en;key;section
+Código;Code;code;header
+Tipo de foco;Focus Type;focus_type;header
+Pais;Country;country;header
+CCAA;Region;region;header
+Provincia;Province;province;header
+Región (en focos extranjeros);Region (in international outbreaks);international_region;header
+Comarca Ganadera (en focos nacionales);Livestock Region;livestock_region;header
+Municipio;Municipality;municipality;header
+UVL;UVL;uvl;header
+Enfermedad;Disease;disease;header
+Nº de Especies Afectadas;No. of Affected Species;n_affected_species;header
+Serotipo;Serotype;serotype;header
+Especie;Species;species;header
+Sensibles;Susceptible;susceptible;header
+Afectados;Affected;affected;header
+Fecha de confirmación;Confirmation Date;confirmation_date;header
+Enfermedad hemorrágica epizoótica;Epizootic haemorrhagic disease;epizootic_haemorrhagic_disease;disease
+Mycobacterium tuberculosis (Inf. por el complejo);Mycobacterium tuberculosis (Inf. by the complex);mycobacterium_tuberculosis;disease
+Influenza Aviar de Alta Patogenicidad en Aves Silvestres;Highly Pathogenic Avian Influenza in Wild Birds;highly_pathogenic_avian_influenza_in_wild_birds;disease
+Scrapie, Tembladera o Prúrigo Lumbar;Scrapie, Scrapie or Scrapie Scrapie;scrapie;disease
+Enfermedad de Aujeszky;Aujeszky's disease;aujeszky's_disease;disease
+Carbunco bacteridiano;Anthrax;anthrax;disease
+Viruela ovina y viruela caprina;Sheep pox and goat pox;sheep_pox_and_goat_pox;disease
+Lengua azul;Bluetongue;bluetongue;disease
+Influenza Aviar de Alta Patogenicidad en Aves de Corral;Highly Pathogenic Avian Influenza in Poultry;highly_pathogenic_avian_influenza_in_poultry;disease
+Encefalopatía espongiforme bovina;Bovine spongiform encephalopathy;bovine_spongiform_encephalopathy;disease
+Fiebre del Nilo Occidental (West Nile);West Nile Fever (West Nile);west_nile_fever;disease
+Brucella suis (Inf. por);Brucella suis (Inf. by);brucella_suis;disease
+Enfermedad de Newcastle;Newcastle disease;newcastle_disease;disease
+Influenza Aviar de Alta Patogenicidad en Aves Cautivas;Highly Pathogenic Avian Influenza in Captive Poultry;highly_pathogenic_avian_influenza_in_captive_poultry;disease
+Brucella melitensis (Inf. por);Brucella melitensis (Inf. by);brucella_melitensis;disease
+Brucella abortus (Inf. por);Brucella abortus (Inf. by);brucella_abortus;disease
+Anemia infecciosa equina;Equine infectious anaemia;equine_infectious_anaemia;disease
+Marteilia refringens (Inf. por);Marteilia refringens (Inf. by);marteilia_refringens;disease
+Infección por Bonamia ostreae;Infection with Bonamia ostreae;infection_with_bonamia_ostreae;disease
+Infección por Bonamia exitiosa;Infection with Bonamia exitiosa;infection_with_bonamia_exitiosa;disease
+Rabia (Inf. por el virus de la);Rabies (Inf. by Rabies virus);rabies;disease
+Influenza Aviar de Baja Patogenicidad en Aves de Corral;Low Pathogenic Avian Influenza in Poultry;low_pathogenic_avian_influenza_in_poultry;disease
+Enfermedad causada por el herpesvirus Koi;Koi herpesvirus disease;koi_herpesvirus_disease;disease
+Influenza Aviar de Baja Patogenicidad en Aves Silvestres;Low Pathogenic Avian Influenza in Wild Birds;low_pathogenic_avian_influenza_in_wild_birds;disease
+Necrosis hematopoyética infecciosa;Infectious haematopoietic necrosis;infectious_haematopoietic_necrosis;disease
+Porcinos;Pigs;pigs;species
+Bovinos;Cows;cows;species
+Ovinos;Sheep;sheep;species
+Caprinos;Goats;goats;species
+Aves de corral;Poultry;poultry;species
+Equidos;Horses;horses;species
+Cervidos;Deer;deer;species
+Aves silvestres;Wild Birds;wild_birds;species
+Perros;Dogs;dogs;species
+Peces de cultivo;Fish;fish;species
+Moluscos de cultivo;Cultivated Mollusks;cultivated_mollusks;species
+Silvestres (salvo jabalíes y aves);Wild Animals;wild_animals;species

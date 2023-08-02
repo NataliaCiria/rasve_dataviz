@@ -1,26 +1,58 @@
 library(dplyr)
 library(tidyr) #Data cleaning
 library(ggplot2) #Plot graphs
-
-outbreaks<-read.csv("rasve_data.csv", sep=";", stringsAsFactors = TRUE)%>%
-  mutate(`N foco`=1,
+dictionary<-read.csv("dictionary.csv", sep=";", stringsAsFactors = TRUE)
+rasve_data<-read.csv("rasve_data.csv", sep=";", stringsAsFactors = TRUE)
+names(rasve_data)<-dictionary$key[dictionary$section=="header"]
+outbreaks<-rasve_data%>%
+  mutate(outbreak_n=1,
     index=row_number())%>%
   arrange(desc(index))%>% 
-  group_by(`Código`)%>%
-  mutate(`n_foco`=cumsum(`N foco`),
-    id_foco=paste0(`Código`,"_",`n_foco`))%>% 
+  group_by(code)%>%
+  mutate(outbreak_n=cumsum(outbreak_n),
+         code=gsub(" ","",code),
+         outbreak_id=paste0(code,"_",outbreak_n))%>% 
   arrange(index)%>% 
-  ungroup()
+  ungroup()%>%
+  left_join(dictionary, by=join_by(disease == lit_es))%>%
+  mutate(disease=lit_en)%>%
+  select(-any_of(names(dictionary)))
+
+n_max<-max(outbreaks$n_affected_species, na.rm=TRUE)
+
+susceptible_tb<-outbreaks%>%
+  select(outbreak_id,species, susceptible)%>%
+  separate(species, paste0("species",1:n_max),sep=", ")%>%
+  separate(susceptible,paste0("susceptible",1:n_max),sep=" / ")%>%
+  pivot_longer(cols = starts_with("species"),
+               names_to = "species_index",
+               values_to = "species",
+               values_drop_na = TRUE) %>%
+  pivot_longer(cols = starts_with("susceptible"),
+               names_to = "susceptible_index",
+               values_to = "susceptible",
+               values_drop_na = TRUE)%>%
+  filter(gsub("species","", species_index) == gsub("susceptible","",susceptible_index))%>%
+  select(outbreak_id,species, susceptible)
 
 animals<-outbreaks%>%
-  select(outbreak_id, starts_with("susceptible"))%>%
-  pivot_longer(cols=starts_with("susceptible"), names_to = "species", values_to="susceptible")%>%
-  mutate(species=gsub("susceptible_","",species))
+  select(outbreak_id,species, affected)%>%
+  separate(species, paste0("species",1:n_max),sep=", ")%>%
+  separate(affected,paste0("affected",1:n_max),sep=" / ")%>%
+  pivot_longer(cols = starts_with("species"),
+               names_to = "species_index",
+               values_to = "species",
+               values_drop_na = TRUE) %>%
+  pivot_longer(cols = starts_with("affected"),
+               names_to = "affected_index",
+               values_to = "affected",
+               values_drop_na = TRUE)%>%
+  filter(gsub("species","", species_index) == gsub("affected","",affected_index))%>%
+  left_join(susceptible_tb, relationship = "many-to-many")%>%
+  left_join(dictionary, by=join_by(species == lit_es))%>%
+  mutate(species=lit_en)%>%
+  select(outbreak_id,species, affected)
+  
+write.csv(outbreaks, "outbreaks.csv", fileEncoding = "UTF-8")
 
-animals<-outbreaks%>%
-  select(outbreak_id, starts_with("affected"))%>%
-  pivot_longer(cols=starts_with("affected"), names_to = "species", values_to="affected")%>%
-  mutate(species=gsub("affected_","",species))%>%
-  left_join(animals, relationship = "many-to-many")
-
-write.csv(animals, "animals.csv")
+write.csv(animals, "animals.csv", fileEncoding = "UTF-8")

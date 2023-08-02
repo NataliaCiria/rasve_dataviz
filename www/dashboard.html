@@ -1,99 +1,142 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spain RASVE Notifications Dashboard</title>
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+<body>
+  <div id="lineGraph"></div>
+  <div id="barGraph"></div>
+  <div id="ringGraph"></div>
 
-<!-- Load d3.js -->
-<script src="https://d3js.org/d3.v4.js"></script>
+  <script>
+    // Sample data in CSV format
+    const dataUrl = "outbreaks.csv";
 
-<!-- Create a div where the graph will take place -->
-<div id="my_dataviz"></div>
+    // Color palette
+    const colors = ["#f17925", "#004753", "#ccaa14", "#4b4c4e", "#d82c20", "#a3d0d4", "#536f18", "#46abb0"];
 
+    // Function to parse dates in the CSV
+    const parseDate = d3.timeParse("%d/%m/%Y");
 
-<script>
+    // Load data from CSV file
+    d3.csv(dataUrl, (d) => {
+      // Parsing data and converting to appropriate data types
+      d.confirmation_date = parseDate(d.confirmation_date);
+      d.n_affected_species = +d.n_affected_species;
+      d.affected = +d.affected;
+      return d;
+    }).then((data) => {
+      // --- Line Graph Timeline ---
+      const lineGraphContainer = d3.select("#lineGraph");
+      const margin = { top: 20, right: 20, bottom: 30, left: 40 };
+      const width = lineGraphContainer.node().getBoundingClientRect().width - margin.left - margin.right;
+      const height = 300 - margin.top - margin.bottom;
 
-  // set the dimensions and margins of the graph
-  var margin = {top: 20, right: 30, bottom: 40, left: 90},
-      width = 460 - margin.left - margin.right,
-      height = 400 - margin.top - margin.bottom;
-  
-  // append the svg object to the body of the page
-  var svg = d3.select("#my_dataviz")
-    .append("svg")
-      .attr("width", width + margin.left + margin.right)
-      .attr("height", height + margin.top + margin.bottom)
-    .append("g")
-      .attr("transform",
-            "translate(" + margin.left + "," + margin.top + ")");
-  
- function countOccurrencesOfUniqueValues(data, key) {
-  const occurrencesMap = {};
+      const xScale = d3.scaleTime()
+        .domain(d3.extent(data, (d) => d.confirmation_date))
+        .range([0, width]);
 
-  // Loop through the array of objects
-  for (const item of data) {
-    const value = item[key];
+      const yScale = d3.scaleLinear()
+        .domain([0, d3.max(data, (d) => d.affected)])
+        .range([height, 0]);
 
-    // If the value is encountered for the first time, initialize the count to 1
-    if (!occurrencesMap[value]) {
-      occurrencesMap[value] = 1;
-    } else {
-      // If the value is already in the map, increment the count
-      occurrencesMap[value]++;
-    }
-  }
+      const line = d3.line()
+        .x((d) => xScale(d.confirmation_date))
+        .y((d) => yScale(d.affected));
 
-  return occurrencesMap;
-}
+      const svg = lineGraphContainer.append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", `translate(${margin.left},${margin.top})`);
 
+      svg.append("path")
+        .datum(data)
+        .attr("fill", "none")
+        .attr("stroke", colors[0])
+        .attr("stroke-width", 2)
+        .attr("d", line);
 
-function objectToArray(obj) {
-  return Object.entries(obj).map(([key, value]) => ({ key, value }));
-}
+      svg.append("g")
+        .attr("transform", `translate(0,${height})`)
+        .call(d3.axisBottom(xScale));
 
-// Parse the Data
-d3.csv("outbreaks.csv", function(data) {
+      svg.append("g")
+        .call(d3.axisLeft(yScale));
 
-const outbreaks_count = countOccurrencesOfUniqueValues(data, 'disease');
-const outbreaks_count_array = objectToArray(outbreaks_count);
+      // --- Bar Graph of Total Outbreaks by Disease ---
+      const barGraphContainer = d3.select("#barGraph");
+      const barWidth = 30;
+      const barHeight = 200;
 
-// Add X axis
-var x = d3.scaleLinear()
-  .domain([0, d3.max(outbreaks_count_array.map(d => +d.value))])
-  .range([ 0, width]);
-svg.append("g")
-  .attr("transform", "translate(0," + height + ")")
-  .call(d3.axisBottom(x))
-  .selectAll("text")
-    .attr("transform", "translate(-10,0)rotate(-45)")
-    .style("text-anchor", "end");
+      const diseaseCounts = d3.rollups(data, (v) => v.length, (d) => d.disease);
 
-// Y axis
-var y = d3.scaleBand()
-  .range([ 0, height ])
-  .domain(outbreaks_count_array.map(function(d) { return d.key; }))
-  .padding(.1);
-svg.append("g")
-  .call(d3.axisLeft(y))
+      const xScaleBar = d3.scaleBand()
+        .domain(diseaseCounts.map((d) => d[0]))
+        .range([0, diseaseCounts.length * barWidth]);
 
-//Bars
-svg.selectAll("myRect")
-  .data(outbreaks_count_array)
-  .enter()
-  .append("rect")
-  .attr("x", x(0) )
-  .attr("y", function(d) { return y(d.key); })
-  .attr("width", function(d) { return x(d.value); })
-  .attr("height", y.bandwidth() )
-  .attr("fill", "#69b3a2")
+      const yScaleBar = d3.scaleLinear()
+        .domain([0, d3.max(diseaseCounts, (d) => d[1])])
+        .range([barHeight, 0]);
 
+      const barSvg = barGraphContainer.append("svg")
+        .attr("width", diseaseCounts.length * barWidth)
+        .attr("height", barHeight);
 
-  // .attr("x", function(d) { return x(d.disease); })
-  // .attr("y", function(d) { return y(d.affected); })
-  // .attr("width", x.bandwidth())
-  // .attr("height", function(d) { return height - y(d.affected); })
-  // .attr("fill", "#69b3a2")
+      barSvg.selectAll("rect")
+        .data(diseaseCounts)
+        .enter()
+        .append("rect")
+        .attr("x", (d) => xScaleBar(d[0]))
+        .attr("y", (d) => yScaleBar(d[1]))
+        .attr("width", barWidth - 5)
+        .attr("height", (d) => barHeight - yScaleBar(d[1]))
+        .attr("fill", colors[1]);
 
-console.log(outbreaks_count)
+      barSvg.append("g")
+        .call(d3.axisLeft(yScaleBar));
 
-})
+      // --- Ring Graph of Affected Species ---
+      const ringGraphContainer = d3.select("#ringGraph");
+      const radius = 80;
 
+      const speciesCounts = d3.rollups(data, (v) => v.length, (d) => d.species);
 
-</script>
+      const pie = d3.pie()
+        .value((d) => d[1]);
+
+      const arc = d3.arc()
+        .innerRadius(0)
+        .outerRadius(radius);
+
+      const ringSvg = ringGraphContainer.append("svg")
+        .attr("width", radius * 2)
+        .attr("height", radius * 2)
+        .append("g")
+        .attr("transform", `translate(${radius},${radius})`);
+
+      const arcGroup = ringSvg.selectAll(".arc")
+        .data(pie(speciesCounts))
+        .enter()
+        .append("g")
+        .attr("class", "arc");
+
+      arcGroup.append("path")
+        .attr("d", arc)
+        .attr("fill", (d, i) => colors[i + 2]);
+
+      arcGroup.append("text")
+        .attr("transform", (d) => `translate(${arc.centroid(d)})`)
+        .attr("dy", "0.35em")
+        .attr("text-anchor", "middle")
+        .text((d) => d.data[0]);
+
+    }).catch((error) => {
+      console.error("Error loading data:", error);
+    });
+  </script>
+</body>
+</html>
