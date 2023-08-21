@@ -4,8 +4,8 @@ Tipo de foco;Focus Type;focus_type;header
 Pais;Country;country;header
 CCAA;Region;region;header
 Provincia;Province;province;header
-Región (en focos extranjeros);Region (in international outbreaks);international_region;header
 Comarca Ganadera (en focos nacionales);Livestock Region;livestock_region;header
+Región (en focos extranjeros);Region (in international outbreaks);international_region;header
 Municipio;Municipality;municipality;header
 UVL;UVL;uvl;header
 Enfermedad;Disease;disease;header
