@@ -14,7 +14,7 @@ outbreaks<-rasve_data%>%
          outbreak_id=paste0(code,"_",outbreak_n))%>% 
   arrange(index)%>% 
   ungroup()%>%
-  left_join(dictionary, by=join_by(disease == lit_es))%>%
+  left_join(dictionary, by=c("disease" = "lit_es"))%>%
   mutate(disease=lit_en)%>%
   select(-any_of(names(dictionary)))
 
@@ -49,7 +49,7 @@ animals<-outbreaks%>%
                values_drop_na = TRUE)%>%
   filter(gsub("species","", species_index) == gsub("affected","",affected_index))%>%
   left_join(susceptible_tb, relationship = "many-to-many")%>%
-  left_join(dictionary, by=join_by(species == lit_es))%>%
+  left_join(dictionary, by=c("species" = "lit_es"))%>%
   mutate(species=lit_en)%>%
   select(outbreak_id,species, affected)
   
