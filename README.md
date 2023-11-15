@@ -1,3 +1,3 @@
 # rasve_dataviz
 
-Dashboard to visualize bovine tuberculosis prevalence data in Spain. Data from from RASVE [Outbreaks database](https://servicio.mapa.gob.es/rasve/Publico/Publico/BuscadorFocos.aspx).
+Dashboard to visualize notifiable animal disease outbreaks reported in Spain through the Red de Alerta Sanitaria Veterinaria (RASVE) [Outbreaks database](https://servicio.mapa.gob.es/rasve/Publico/Publico/BuscadorFocos.aspx).
