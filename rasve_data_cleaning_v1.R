@@ -4,17 +4,18 @@ library(ggplot2) #Plot graphs
 dictionary<-read.csv("dictionary.csv", sep=";", stringsAsFactors = TRUE)
 rasve_data<-read.csv("rasve_data.csv", sep=";", stringsAsFactors = TRUE)
 names(rasve_data)<-dictionary$key[dictionary$section=="header"]
+
 outbreaks<-rasve_data%>%
   mutate(outbreak_n=1,
-    index=row_number())%>%
+    index=row_number(),
+    code=gsub(" ","",code))%>%
   arrange(desc(index))%>% 
   group_by(code)%>%
   mutate(outbreak_n=cumsum(outbreak_n),
-         code=gsub(" ","",code),
          outbreak_id=paste0(code,"_",outbreak_n))%>% 
   arrange(index)%>% 
   ungroup()%>%
-  left_join(dictionary, by=join_by(disease == lit_es))%>%
+  left_join(dictionary, by=c("disease" = "lit_es"))%>%
   mutate(disease=lit_en)%>%
   select(-any_of(names(dictionary)))
 
@@ -49,9 +50,9 @@ animals<-outbreaks%>%
                values_drop_na = TRUE)%>%
   filter(gsub("species","", species_index) == gsub("affected","",affected_index))%>%
   left_join(susceptible_tb, relationship = "many-to-many")%>%
-  left_join(dictionary, by=join_by(species == lit_es))%>%
+  left_join(dictionary, by=c("species" = "lit_es"))%>%
   mutate(species=lit_en)%>%
-  select(outbreak_id,species, affected)
+  select(outbreak_id,species, affected, susceptible)
   
 write.csv(outbreaks, "outbreaks.csv", fileEncoding = "UTF-8")
 

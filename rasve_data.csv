@@ -1,4 +1,5 @@
 ﻿Código;Tipo de foco;Pais;CCAA;Provincia;Comarca Ganadera (en focos nacionales);Región (en focos extranjeros);Municipio;UVL;Enfermedad;Nº de Especies Afectadas;Serotipo;Especie;Sensibles;Afectados;Fecha de confirmación
+<<<<<<< HEAD
 2023/55  ;Primario;España;CATALUÑA;BARCELONA;VALLES OCCIDENTAL (SABADEL);;Castellar del Vallès;Barcelona;Fiebre del Nilo Occidental (West Nile);1;;Equidos;53;0;16/11/2023
 2023/54  ;Primario;España;ANDALUCÍA;SEVILLA;SANLUCAR LA MAYOR (PONIENTE DE SEVILLA);;Aznalcázar;Sevilla;Fiebre del Nilo Occidental (West Nile);1;;Equidos;113;1;16/11/2023
 2023/60  ;Primario;España;CANTABRIA;CANTABRIA;SOLARES (MEDIO CUDEYO);;Ribamontán al Monte;Santander;Lengua azul;1;04;Bovinos;134;2;13/11/2023
@@ -310,12 +311,19 @@
 2023/46  ;Primario;España;ANDALUCÍA;CÁDIZ;CAMPIÑA;;Algar;Cádiz;Enfermedad hemorrágica epizoótica;1;08;Bovinos;40;11;10/08/2023
 2023/45  ;Primario;España;ANDALUCÍA;HUELVA;CARTAYA (COSTA OCCIDENTAL);;Trigueros;Huelva;Enfermedad hemorrágica epizoótica;1;08;Bovinos;27;2;10/08/2023
 2023/44  ;Primario;España;ANDALUCÍA;CÓRDOBA;POSADAS (VEGA DEL GUADALQUIVIR);;Almodóvar del Río;Córdoba;Enfermedad hemorrágica epizoótica;1;08;Bovinos;55;10;18/07/2023
+=======
+2023/6   ;Primario;España;CATALUÑA;BARCELONA;BAIX LLOBREGAT (SANT BOI);;Cornellà de Llobregat;Barcelona;Fiebre del Nilo Occidental (West Nile);1;;Aves silvestres;1;1;10/08/2023
+2023/5   ;Primario;España;ANDALUCÍA;SEVILLA;CAZALLA DE LA SIERRA (SIERRA NORTE);;Pedroso, El;Sevilla;Fiebre del Nilo Occidental (West Nile);1;;Equidos;2;1;11/08/2023
+>>>>>>> 930cbd0fc2cac387e088f26852f57157620160ed
 2023/4   ;Primario;España;ANDALUCÍA;SEVILLA;CANTILLANA (VEGA DE SEVILLA);;Villaverde del Río;Sevilla;Fiebre del Nilo Occidental (West Nile);1;;Equidos;3;1;08/08/2023
 2023/3   ;Primario;España;VALENCIA;VALENCIA;CAMP DE MORVEDRE;;Gilet;Valencia;Fiebre del Nilo Occidental (West Nile);1;;Equidos;3;1;08/08/2023
 2023/44  ;Primario;España;CATALUÑA;GIRONA;ALT EMPORDA (FIGUERES);;Castelló d'Empúries;Girona;Influenza Aviar de Alta Patogenicidad en Aves Silvestres;1;H5N1;Aves silvestres;1;1;28/07/2023
 2023/43  ;Primario;España;CATALUÑA;TARRAGONA;MONTSIA (AMPOSTA);;Sant Carles de la Ràpita;Tarragona;Influenza Aviar de Alta Patogenicidad en Aves Silvestres;1;H5N1;Aves silvestres;6;6;28/07/2023
 2023/42  ;Primario;España;CATALUÑA;GIRONA;BAIX EMPORDA (LA BISBAL);;Begur;Girona;Influenza Aviar de Alta Patogenicidad en Aves Silvestres;1;H5N1;Aves silvestres;1;1;28/07/2023
+<<<<<<< HEAD
 2023/23  ;Primario;España;CASTILLA LA MANCHA;ALBACETE;ALCARAZ;;Bienservida;Albacete;Lengua azul;1;04;Ovinos;15;5;07/08/2023
+=======
+>>>>>>> 930cbd0fc2cac387e088f26852f57157620160ed
 2023/43  ;Primario;España;EXTREMADURA;BADAJOZ;AZUAGA;;Peraleda del Zaucejo;Badajoz;Enfermedad hemorrágica epizoótica;1;08;Bovinos;2030;10;03/08/2023
 2023/42  ;Primario;España;EXTREMADURA;BADAJOZ;MERIDA;;Mérida;Badajoz;Enfermedad hemorrágica epizoótica;1;08;Bovinos;163;1;03/08/2023
 2023/41  ;Primario;España;CASTILLA Y LEÓN;SALAMANCA;LEDESMA;;Encina de San Silvestre;Salamanca;Enfermedad hemorrágica epizoótica;1;08;Bovinos;85;1;01/08/2023
@@ -15062,45 +15070,45 @@
 2003/9   ;Primario;España;BALEARES;BALEARES;MENORCA;;Maó;Palma De Mallorca;Lengua azul;1;;Ovinos;8;3;19/11/2003
 2003/8   ;Primario;España;BALEARES;BALEARES;MENORCA;;Maó;Palma De Mallorca;Lengua azul;1;;Ovinos;222;9;19/11/2003
 2003/7   ;Primario;España;BALEARES;BALEARES;MENORCA;;Sant Lluís;Palma De Mallorca;Lengua azul;1;;Ovinos;62;1;11/11/2003
-2003/6   ;Primario;España;BALEARES;BALEARES;MENORCA;;Sant Lluís;Palma De Mallorca;Lengua azul;1;;Ovinos;6;1;10/11/2003
-2003/5   ;Primario;España;BALEARES;BALEARES;MENORCA;;Sant Lluís;Palma De Mallorca;Lengua azul;1;;Ovinos;14;6;05/11/2003
-2003/114;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;18/09/2003
-2003/113;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;23/09/2003
-2003/112;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;15/09/2003
-2003/111;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;15/09/2003
-2003/110;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;15/09/2003
-2003/108;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;16/09/2003
-2003/107;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;15/09/2003
-2003/106;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;04/09/2003
-2003/105;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;03/09/2003
-2003/104;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;02/09/2003
-2003/103;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;22/08/2003
-2003/102;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;21/08/2003
-2003/101;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;14/08/2003
-2003/100;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;14/08/2003
-2003/99;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;05/08/2003
-2003/98;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;06/08/2003
-2003/97;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;05/08/2003
-2003/96;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;05/08/2003
-2003/95;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;05/08/2003
-2003/94;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;06/08/2003
-2003/93;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;23/07/2003
-2003/92;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;22/07/2003
-2003/91;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;18/07/2003
-2003/90;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;18/07/2003
-2003/89;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;16/07/2003
-2003/88;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;15/07/2003
-2003/87;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;09/07/2003
-2003/86;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;09/07/2003
-2003/85;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;09/07/2003
-2003/84;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;07/07/2003
-2003/83;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;07/07/2003
-2003/82;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;07/07/2003
-2003/81;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;07/07/2003
-2003/80;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;04/07/2003
-2003/79;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;04/07/2003
-2003/78;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;03/07/2003
-2003/77;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;20/06/2003
-2003/1;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;20/05/2003
-2003/1   ;Primario;España;BALEARES;BALEARES;PALMA;;Andratx;Palma De Mallorca;Encefalopatía espongiforme bovina;1;;Bovinos;60;1;20/05/2003
-2003/62 ;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;16/05/2003
+2003/6   ;Primario;España;BALEARES;BALEARES;MENORCA;;Sant Lluís;Palma De Mallorca;Lengua azul;1;;Ovinos;6;1;37935
+2003/5   ;Primario;España;BALEARES;BALEARES;MENORCA;;Sant Lluís;Palma De Mallorca;Lengua azul;1;;Ovinos;14;6;37930
+2003/114;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37882
+2003/113;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37887
+2003/112;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37879
+2003/111;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37879
+2003/110;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37879
+2003/108;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37880
+2003/107;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37879
+2003/106;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37868
+2003/105;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37867
+2003/104;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37866
+2003/103;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37855
+2003/102;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37854
+2003/101;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37847
+2003/100;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37847
+2003/99;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37838
+2003/98;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37839
+2003/97;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37838
+2003/96;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37838
+2003/95;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37838
+2003/94;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37839
+2003/93;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37825
+2003/92;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37824
+2003/91;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37820
+2003/90;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37820
+2003/89;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37818
+2003/88;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37817
+2003/87;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37811
+2003/86;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37811
+2003/85;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37811
+2003/84;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37809
+2003/83;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37809
+2003/82;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37809
+2003/81;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37809
+2003/80;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37806
+2003/79;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37806
+2003/78;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37805
+2003/77;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37792
+2003/1;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37761
+2003/1   ;Primario;España;BALEARES;BALEARES;PALMA;;Andratx;Palma De Mallorca;Encefalopatía espongiforme bovina;1;;Bovinos;60;1;37761
+2003/62 ;Primario;España;;;;;;;Encefalopatía espongiforme bovina;;;Bovinos;0;1;37757
