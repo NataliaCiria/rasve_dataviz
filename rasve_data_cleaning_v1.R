@@ -5,6 +5,12 @@ dictionary<-read.csv("dictionary.csv", sep=";", stringsAsFactors = TRUE)
 rasve_data<-read.csv("rasve_data.csv", sep=";", stringsAsFactors = TRUE)
 names(rasve_data)<-dictionary$key[dictionary$section=="header"]
 
+#Add data format
+rasve_data$confirmation_date<-as.Date(rasve_data$confirmation_date,"%d/%m/%Y")
+
+#Filter to 2024-01-01
+rasve_data<-rasve_data[rasve_data$confirmation_date<"2024-01-01",]
+
 outbreaks<-rasve_data%>%
   mutate(outbreak_n=1,
     index=row_number(),
