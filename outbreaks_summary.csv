@@ -1,27 +1,119 @@
 "","disease","year","outbreaks"
-"1","Anthrax","2022",4
-"2","Anthrax","2023",2
-"3","Aujeszky's disease","2022",3
-"4","Aujeszky's disease","2023",2
-"5","Bluetongue","2021",67
-"6","Bluetongue","2022",74
-"7","Bluetongue","2023",120
-"8","Bovine spongiform encephalopathy","2023",1
-"9","Brucella suis (Inf. by)","2022",1
-"10","Epizootic haemorrhagic disease","2022",11
-"11","Epizootic haemorrhagic disease","2023",267
-"12","Highly Pathogenic Avian Influenza in Captive Poultry","2022",3
-"13","Highly Pathogenic Avian Influenza in Poultry","2022",37
-"14","Highly Pathogenic Avian Influenza in Poultry","2023",1
-"15","Highly Pathogenic Avian Influenza in Wild Birds","2022",143
-"16","Highly Pathogenic Avian Influenza in Wild Birds","2023",56
-"17","Mycobacterium tuberculosis (Inf. by the complex)","2022",9
-"18","Mycobacterium tuberculosis (Inf. by the complex)","2023",21
-"19","Newcastle disease","2022",3
-"20","Scrapie, Scrapie or Scrapie Scrapie","2022",27
-"21","Scrapie, Scrapie or Scrapie Scrapie","2023",17
-"22","Sheep pox and goat pox","2022",23
-"23","Sheep pox and goat pox","2023",7
-"24","West Nile Fever (West Nile)","2022",17
-"25","West Nile Fever (West Nile)","2023",57
-"26",NA,NA,14071
+"1","Anthrax","2021",24
+"2","Anthrax","2022",4
+"3","Anthrax","2023",2
+"4","Aujeszky's disease","2017",2
+"5","Aujeszky's disease","2018",13
+"6","Aujeszky's disease","2019",11
+"7","Aujeszky's disease","2020",5
+"8","Aujeszky's disease","2021",6
+"9","Aujeszky's disease","2022",3
+"10","Aujeszky's disease","2023",2
+"11","Bluetongue","2003",11
+"12","Bluetongue","2004",322
+"13","Bluetongue","2005",88
+"14","Bluetongue","2007",7916
+"15","Bluetongue","2008",3038
+"16","Bluetongue","2009",429
+"17","Bluetongue","2010",88
+"18","Bluetongue","2011",10
+"19","Bluetongue","2012",7
+"20","Bluetongue","2013",69
+"21","Bluetongue","2014",424
+"22","Bluetongue","2015",19
+"23","Bluetongue","2016",20
+"24","Bluetongue","2017",10
+"25","Bluetongue","2018",13
+"26","Bluetongue","2019",1
+"27","Bluetongue","2020",32
+"28","Bluetongue","2021",355
+"29","Bluetongue","2022",74
+"30","Bluetongue","2023",120
+"31","Bovine spongiform encephalopathy","2003",93
+"32","Bovine spongiform encephalopathy","2004",94
+"33","Bovine spongiform encephalopathy","2005",93
+"34","Bovine spongiform encephalopathy","2006",68
+"35","Bovine spongiform encephalopathy","2007",39
+"36","Bovine spongiform encephalopathy","2008",23
+"37","Bovine spongiform encephalopathy","2009",20
+"38","Bovine spongiform encephalopathy","2010",13
+"39","Bovine spongiform encephalopathy","2011",5
+"40","Bovine spongiform encephalopathy","2012",8
+"41","Bovine spongiform encephalopathy","2014",2
+"42","Bovine spongiform encephalopathy","2015",1
+"43","Bovine spongiform encephalopathy","2016",1
+"44","Bovine spongiform encephalopathy","2017",3
+"45","Bovine spongiform encephalopathy","2019",2
+"46","Bovine spongiform encephalopathy","2020",1
+"47","Bovine spongiform encephalopathy","2021",2
+"48","Bovine spongiform encephalopathy","2023",1
+"49","Brucella abortus (Inf. by)","2020",1
+"50","Brucella melitensis (Inf. by)","2013",1
+"51","Brucella melitensis (Inf. by)","2016",2
+"52","Brucella melitensis (Inf. by)","2018",2
+"53","Brucella melitensis (Inf. by)","2021",9
+"54","Brucella suis (Inf. by)","2022",1
+"55","Epizootic haemorrhagic disease","2022",11
+"56","Epizootic haemorrhagic disease","2023",267
+"57","Equine infectious anaemia","2017",2
+"58","Highly Pathogenic Avian Influenza in Captive Poultry","2022",3
+"59","Highly Pathogenic Avian Influenza in Poultry","2009",1
+"60","Highly Pathogenic Avian Influenza in Poultry","2017",10
+"61","Highly Pathogenic Avian Influenza in Poultry","2022",37
+"62","Highly Pathogenic Avian Influenza in Poultry","2023",1
+"63","Highly Pathogenic Avian Influenza in Wild Birds","2006",1
+"64","Highly Pathogenic Avian Influenza in Wild Birds","2017",2
+"65","Highly Pathogenic Avian Influenza in Wild Birds","2020",1
+"66","Highly Pathogenic Avian Influenza in Wild Birds","2021",2
+"67","Highly Pathogenic Avian Influenza in Wild Birds","2022",144
+"68","Highly Pathogenic Avian Influenza in Wild Birds","2023",56
+"69","Infection with Bonamia exitiosa","2010",1
+"70","Infection with Bonamia exitiosa","2014",2
+"71","Infection with Bonamia ostreae","2014",1
+"72","Infectious haematopoietic necrosis","2005",1
+"73","Koi herpesvirus disease","2011",1
+"74","Low Pathogenic Avian Influenza in Poultry","2009",1
+"75","Low Pathogenic Avian Influenza in Poultry","2013",1
+"76","Low Pathogenic Avian Influenza in Wild Birds","2008",1
+"77","Marteilia refringens (Inf. by)","2013",3
+"78","Marteilia refringens (Inf. by)","2014",1
+"79","Mycobacterium tuberculosis (Inf. by the complex)","2022",9
+"80","Mycobacterium tuberculosis (Inf. by the complex)","2023",21
+"81","Newcastle disease","2009",1
+"82","Newcastle disease","2022",3
+"83","Rabies (Inf. by Rabies virus)","2013",1
+"84","Scrapie, Scrapie or Scrapie Scrapie","2005",13
+"85","Scrapie, Scrapie or Scrapie Scrapie","2006",53
+"86","Scrapie, Scrapie or Scrapie Scrapie","2007",48
+"87","Scrapie, Scrapie or Scrapie Scrapie","2008",37
+"88","Scrapie, Scrapie or Scrapie Scrapie","2009",32
+"89","Scrapie, Scrapie or Scrapie Scrapie","2010",34
+"90","Scrapie, Scrapie or Scrapie Scrapie","2011",37
+"91","Scrapie, Scrapie or Scrapie Scrapie","2012",29
+"92","Scrapie, Scrapie or Scrapie Scrapie","2013",23
+"93","Scrapie, Scrapie or Scrapie Scrapie","2014",23
+"94","Scrapie, Scrapie or Scrapie Scrapie","2015",30
+"95","Scrapie, Scrapie or Scrapie Scrapie","2016",24
+"96","Scrapie, Scrapie or Scrapie Scrapie","2017",32
+"97","Scrapie, Scrapie or Scrapie Scrapie","2018",27
+"98","Scrapie, Scrapie or Scrapie Scrapie","2019",24
+"99","Scrapie, Scrapie or Scrapie Scrapie","2020",18
+"100","Scrapie, Scrapie or Scrapie Scrapie","2021",18
+"101","Scrapie, Scrapie or Scrapie Scrapie","2022",27
+"102","Scrapie, Scrapie or Scrapie Scrapie","2023",17
+"103","Sheep pox and goat pox","2022",23
+"104","Sheep pox and goat pox","2023",7
+"105","West Nile Fever (West Nile)","2010",36
+"106","West Nile Fever (West Nile)","2011",5
+"107","West Nile Fever (West Nile)","2012",4
+"108","West Nile Fever (West Nile)","2013",35
+"109","West Nile Fever (West Nile)","2014",8
+"110","West Nile Fever (West Nile)","2015",17
+"111","West Nile Fever (West Nile)","2016",73
+"112","West Nile Fever (West Nile)","2017",13
+"113","West Nile Fever (West Nile)","2018",9
+"114","West Nile Fever (West Nile)","2019",6
+"115","West Nile Fever (West Nile)","2020",139
+"116","West Nile Fever (West Nile)","2021",18
+"117","West Nile Fever (West Nile)","2022",17
+"118","West Nile Fever (West Nile)","2023",57
