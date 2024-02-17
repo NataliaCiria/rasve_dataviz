@@ -6,7 +6,7 @@ outbreaks<-read.csv("outbreaks.csv")
 
 outbreaks_summary<-outbreaks%>%
   mutate(year = substr(confirmation_date, start = 1, stop = 4)) %>%
-  group_by(disease, year) %>%
+  group_by(disease, disease_label,year) %>%
   summarise(outbreaks = n(),
             species=toString(unique(species)))
 

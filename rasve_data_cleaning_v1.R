@@ -22,7 +22,8 @@ outbreaks<-rasve_data%>%
   arrange(index)%>% 
   ungroup()%>%
   left_join(dictionary, by=c("disease" = "lit_es"))%>%
-  mutate(disease=lit_en)%>%
+  mutate(disease=short_en,
+         disease_label=lit_en)%>%
   select(-any_of(names(dictionary)))
 
 n_max<-max(outbreaks$n_affected_species, na.rm=TRUE)
