@@ -1,119 +1,119 @@
-"","disease","disease_label","year","outbreaks","species"
-"1","Bluetongue","Bluetongue","2007",7916,"Ovinos, Caprinos, Caprinos, Ovinos, Bovinos, Caprinos, Ovinos, Bovinos, Ovinos, Bovinos, Ovinos, Silvestres (salvo jabalíes y aves), Bovinos, Bovinos, Caprinos, "
-"2","Bluetongue","Bluetongue","2008",3038,"Caprinos, Ovinos, Bovinos, Bovinos, Ovinos, Caprinos, Ovinos, Bovinos, Caprinos, Bovinos, Caprinos, Ovinos"
-"3","Bluetongue","Bluetongue","2009",429,"Bovinos, Ovinos, Bovinos, Caprinos, Caprinos"
-"4","Bluetongue","Bluetongue","2014",424,"Bovinos, Ovinos, Caprinos, Caprinos, Ovinos, Bovinos, Ovinos, Bovinos, Caprinos, Ovinos, Silvestres (salvo jabalíes y aves)"
-"5","Bluetongue","Bluetongue","2021",355,"Ovinos, Caprinos, Bovinos, Bovinos, Ovinos, Caprinos, Ovinos, Bovinos, Caprinos, Ovinos"
-"6","Bluetongue","Bluetongue","2004",322,"Bovinos, Caprinos, Ovinos, Bovinos, Ovinos, Ovinos, Bovinos, Caprinos, Bovinos, Caprinos, Ovinos, Caprinos, Silvestres (salvo jabalíes y aves)"
-"7","EHD","Epizootic haemorrhagic disease","2023",267,"Bovinos, Silvestres (salvo jabalíes y aves), Cervidos"
-"8","HPAI in Wild Birds","Highly Pathogenic Avian Influenza in Wild Birds","2022",144,"Aves silvestres"
-"9","West Nile Fever","West Nile Fever (West Nile)","2020",139,"Equidos"
-"10","Bluetongue","Bluetongue","2023",120,"Bovinos, Caprinos, Ovinos, Caprinos, Ovinos, Silvestres (salvo jabalíes y aves)"
-"11","BSE","Bovine spongiform encephalopathy","2004",94,"Bovinos"
-"12","BSE","Bovine spongiform encephalopathy","2003",93,"Bovinos"
-"13","BSE","Bovine spongiform encephalopathy","2005",93,"Bovinos"
-"14","Bluetongue","Bluetongue","2005",88,"Caprinos, Ovinos, Bovinos, Ovinos, Caprinos"
-"15","Bluetongue","Bluetongue","2010",88,"Silvestres (salvo jabalíes y aves), Ovinos, Caprinos, Bovinos"
-"16","Bluetongue","Bluetongue","2022",74,"Caprinos, Bovinos, Ovinos, Silvestres (salvo jabalíes y aves), Bovinos, Ovinos"
-"17","West Nile Fever","West Nile Fever (West Nile)","2016",73,"Equidos"
-"18","Bluetongue","Bluetongue","2013",69,"Ovinos, Silvestres (salvo jabalíes y aves), Bovinos, Caprinos, Caprinos, Ovinos, Ovinos, Silvestres (salvo jabalíes y aves)"
-"19","BSE","Bovine spongiform encephalopathy","2006",68,"Bovinos"
-"20","West Nile Fever","West Nile Fever (West Nile)","2023",57,"Equidos, Aves silvestres, Aves de corral, Aves cautivas"
-"21","HPAI in Wild Birds","Highly Pathogenic Avian Influenza in Wild Birds","2023",56,"Aves silvestres"
-"22","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2006",53,"Ovinos, Caprinos, Ovinos, Caprinos"
-"23","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2007",48,"Ovinos, Caprinos, Ovinos, Caprinos"
-"24","BSE","Bovine spongiform encephalopathy","2007",39,"Bovinos"
-"25","HPAI in Poultry","Highly Pathogenic Avian Influenza in Poultry","2022",37,"Aves de corral"
-"26","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2008",37,"Ovinos, Caprinos, Caprinos, Ovinos"
-"27","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2011",37,"Caprinos, Ovinos, Caprinos, Ovinos"
-"28","West Nile Fever","West Nile Fever (West Nile)","2010",36,"Equidos"
-"29","West Nile Fever","West Nile Fever (West Nile)","2013",35,"Equidos"
-"30","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2010",34,"Ovinos, Caprinos, Caprinos, Ovinos"
-"31","Bluetongue","Bluetongue","2020",32,"Bovinos, Ovinos, Bovinos, Caprinos, Ovinos, Caprinos, Silvestres (salvo jabalíes y aves)"
-"32","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2009",32,"Caprinos, Ovinos, Caprinos, Ovinos"
-"33","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2017",32,"Ovinos, Caprinos, Ovinos, Caprinos"
-"34","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2015",30,"Caprinos, Ovinos, Caprinos, Ovinos"
-"35","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2012",29,"Caprinos, Ovinos, Caprinos, Ovinos"
-"36","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2018",27,"Caprinos, Ovinos, Caprinos, Ovinos"
-"37","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2022",27,"Ovinos, Caprinos, Ovinos, Caprinos"
-"38","Anthrax","Anthrax","2021",24,"Bovinos, Equidos"
-"39","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2016",24,"Ovinos, Caprinos, Ovinos, Caprinos"
-"40","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2019",24,"Ovinos, Caprinos, Ovinos, Caprinos"
-"41","BSE","Bovine spongiform encephalopathy","2008",23,"Bovinos"
-"42","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2013",23,"Caprinos, Ovinos, Ovinos, Caprinos"
-"43","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2014",23,"Ovinos, Caprinos, Caprinos, Ovinos"
-"44","Sheep and Goat Pox","Sheep pox and goat pox","2022",23,"Ovinos, Caprinos, Ovinos"
-"45","Mycobacterium tuberculosis","Mycobacterium tuberculosis (Inf. by the complex)","2023",21,"Bovinos"
-"46","BSE","Bovine spongiform encephalopathy","2009",20,"Bovinos"
-"47","Bluetongue","Bluetongue","2016",20,"Caprinos, Ovinos, Caprinos, Bovinos, Ovinos"
-"48","Bluetongue","Bluetongue","2015",19,"Caprinos, Bovinos, Bovinos, Caprinos, Ovinos, Caprinos, Ovinos, Ovinos"
-"49","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2020",18,"Ovinos, Caprinos, Caprinos, Ovinos"
-"50","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2021",18,"Ovinos, Caprinos, Ovinos, Caprinos"
-"51","West Nile Fever","West Nile Fever (West Nile)","2021",18,"Equidos, Silvestres (salvo jabalíes y aves), Aves de corral, Silvestres (salvo jabalíes y aves)"
-"52","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2023",17,"Ovinos, Caprinos, Caprinos, Ovinos"
-"53","West Nile Fever","West Nile Fever (West Nile)","2015",17,"Equidos"
-"54","West Nile Fever","West Nile Fever (West Nile)","2022",17,"Equidos, Aves silvestres"
-"55","Aujeszky's Disease","Aujeszky's disease","2018",13,"Porcinos"
-"56","BSE","Bovine spongiform encephalopathy","2010",13,"Bovinos"
-"57","Bluetongue","Bluetongue","2018",13,"Bovinos, Caprinos, Ovinos"
-"58","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2005",13,"Ovinos, Caprinos"
-"59","West Nile Fever","West Nile Fever (West Nile)","2017",13,"Equidos"
-"60","Aujeszky's Disease","Aujeszky's disease","2019",11,"Porcinos, Jabalíes"
-"61","Bluetongue","Bluetongue","2003",11,"Ovinos"
-"62","EHD","Epizootic haemorrhagic disease","2022",11,"Bovinos"
-"63","Bluetongue","Bluetongue","2011",10,"Caprinos, Bovinos, Silvestres (salvo jabalíes y aves)"
-"64","Bluetongue","Bluetongue","2017",10,"Caprinos, Bovinos, Caprinos, Ovinos"
-"65","HPAI in Poultry","Highly Pathogenic Avian Influenza in Poultry","2017",10,"Aves de corral"
-"66","Brucella melitensis","Brucella melitensis (Inf. by)","2021",9,"Ovinos, Caprinos, Ovinos"
-"67","Mycobacterium tuberculosis","Mycobacterium tuberculosis (Inf. by the complex)","2022",9,"Bovinos"
-"68","West Nile Fever","West Nile Fever (West Nile)","2018",9,"Equidos"
-"69","BSE","Bovine spongiform encephalopathy","2012",8,"Bovinos"
-"70","West Nile Fever","West Nile Fever (West Nile)","2014",8,"Equidos"
-"71","Bluetongue","Bluetongue","2012",7,"Bovinos, Silvestres (salvo jabalíes y aves), Caprinos"
-"72","Sheep and Goat Pox","Sheep pox and goat pox","2023",7,"Caprinos, Ovinos, Ovinos"
-"73","Aujeszky's Disease","Aujeszky's disease","2021",6,"Porcinos"
-"74","West Nile Fever","West Nile Fever (West Nile)","2019",6,"Equidos"
-"75","Aujeszky's Disease","Aujeszky's disease","2020",5,"Porcinos"
-"76","BSE","Bovine spongiform encephalopathy","2011",5,"Bovinos"
-"77","West Nile Fever","West Nile Fever (West Nile)","2011",5,"Equidos"
-"78","Anthrax","Anthrax","2022",4,"Bovinos, Ovinos"
-"79","West Nile Fever","West Nile Fever (West Nile)","2012",4,"Equidos"
-"80","Aujeszky's Disease","Aujeszky's disease","2022",3,"Porcinos"
-"81","BSE","Bovine spongiform encephalopathy","2017",3,"Bovinos"
-"82","HPAI in Captive Poultry","Highly Pathogenic Avian Influenza in Captive Poultry","2022",3,"Aves silvestres"
-"83","Marteilia refringens","Marteilia refringens (Inf. by)","2013",3,"Moluscos de cultivo"
-"84","Newcastle Disease","Newcastle disease","2022",3,"Aves de corral"
-"85","Anthrax","Anthrax","2023",2,"Bovinos"
-"86","Aujeszky's Disease","Aujeszky's disease","2017",2,"Porcinos"
-"87","Aujeszky's Disease","Aujeszky's disease","2023",2,"Porcinos"
-"88","BSE","Bovine spongiform encephalopathy","2014",2,"Bovinos"
-"89","BSE","Bovine spongiform encephalopathy","2019",2,"Bovinos"
-"90","BSE","Bovine spongiform encephalopathy","2021",2,"Bovinos"
-"91","Bonamia exitiosa Infection","Infection with Bonamia exitiosa","2014",2,"Moluscos de cultivo"
-"92","Brucella melitensis","Brucella melitensis (Inf. by)","2016",2,"Ovinos, Caprinos, Ovinos"
-"93","Brucella melitensis","Brucella melitensis (Inf. by)","2018",2,"Bovinos"
-"94","EIA","Equine infectious anaemia","2017",2,"Equidos"
-"95","HPAI in Wild Birds","Highly Pathogenic Avian Influenza in Wild Birds","2017",2,"Silvestres (salvo jabalíes y aves)"
-"96","HPAI in Wild Birds","Highly Pathogenic Avian Influenza in Wild Birds","2021",2,"Silvestres (salvo jabalíes y aves)"
-"97","BSE","Bovine spongiform encephalopathy","2015",1,"Bovinos"
-"98","BSE","Bovine spongiform encephalopathy","2016",1,"Bovinos"
-"99","BSE","Bovine spongiform encephalopathy","2020",1,"Bovinos"
-"100","BSE","Bovine spongiform encephalopathy","2023",1,"Bovinos"
-"101","Bluetongue","Bluetongue","2019",1,"Caprinos"
-"102","Bonamia exitiosa Infection","Infection with Bonamia exitiosa","2010",1,"Moluscos de cultivo"
-"103","Bonamia ostreae Infection","Infection with Bonamia ostreae","2014",1,"Moluscos de cultivo"
-"104","Brucella abortus","Brucella abortus (Inf. by)","2020",1,"Bovinos"
-"105","Brucella melitensis","Brucella melitensis (Inf. by)","2013",1,"Caprinos, Ovinos"
-"106","Brucella suis","Brucella suis (Inf. by)","2022",1,"Ovinos"
-"107","HPAI in Poultry","Highly Pathogenic Avian Influenza in Poultry","2009",1,"Aves de corral"
-"108","HPAI in Poultry","Highly Pathogenic Avian Influenza in Poultry","2023",1,"Aves de corral"
-"109","HPAI in Wild Birds","Highly Pathogenic Avian Influenza in Wild Birds","2006",1,"Silvestres (salvo jabalíes y aves)"
-"110","HPAI in Wild Birds","Highly Pathogenic Avian Influenza in Wild Birds","2020",1,"Silvestres (salvo jabalíes y aves)"
-"111","IHN","Infectious haematopoietic necrosis","2005",1,"Peces de cultivo"
-"112","Koi Herpesvirus Disease","Koi herpesvirus disease","2011",1,"Peces de cultivo"
-"113","LPAI in Poultry","Low Pathogenic Avian Influenza in Poultry","2009",1,"Aves de corral"
-"114","LPAI in Poultry","Low Pathogenic Avian Influenza in Poultry","2013",1,"Aves de corral"
-"115","LPAI in Wild Birds","Low Pathogenic Avian Influenza in Wild Birds","2008",1,"Silvestres (salvo jabalíes y aves)"
-"116","Marteilia refringens","Marteilia refringens (Inf. by)","2014",1,"Moluscos de cultivo"
-"117","Newcastle Disease","Newcastle disease","2009",1,"Aves de corral"
-"118","Rabies","Rabies (Inf. by Rabies virus)","2013",1,"Perros"
+"","disease","disease_label","year","species","outbreaks"
+"1","Bluetongue","Bluetongue","2007","Sheep, Goats, Cows, NA",7916
+"2","Bluetongue","Bluetongue","2008","Goats, Sheep, Cows",3038
+"3","Bluetongue","Bluetongue","2009","Cows, Sheep, Goats",429
+"4","Bluetongue","Bluetongue","2014","Cows, Sheep, Goats, Wild Animals",424
+"5","Bluetongue","Bluetongue","2021","Sheep, Goats, Cows",355
+"6","Bluetongue","Bluetongue","2004","Cows, Goats, Sheep, Wild Animals",322
+"7","EHD","Epizootic haemorrhagic disease","2023","Cows, Wild Animals, Deer",267
+"8","HPAI in Wild Birds","Highly Pathogenic Avian Influenza in Wild Birds","2022","Wild Birds",144
+"9","West Nile Fever","West Nile Fever (West Nile)","2020","Horses",139
+"10","Bluetongue","Bluetongue","2023","Cows, Goats, Sheep, Wild Animals",120
+"11","BSE","Bovine spongiform encephalopathy","2004","Cows",94
+"12","BSE","Bovine spongiform encephalopathy","2003","Cows",93
+"13","BSE","Bovine spongiform encephalopathy","2005","Cows",93
+"14","Bluetongue","Bluetongue","2005","Goats, Cows, Sheep",88
+"15","Bluetongue","Bluetongue","2010","Wild Animals, Sheep, Goats, Cows",88
+"16","Bluetongue","Bluetongue","2022","Goats, Cows, Sheep, Wild Animals",74
+"17","West Nile Fever","West Nile Fever (West Nile)","2016","Horses",73
+"18","Bluetongue","Bluetongue","2013","Sheep, Wild Animals, Cows, Goats",69
+"19","BSE","Bovine spongiform encephalopathy","2006","Cows",68
+"20","West Nile Fever","West Nile Fever (West Nile)","2023","Horses, Wild Birds, Poultry, NA",57
+"21","HPAI in Wild Birds","Highly Pathogenic Avian Influenza in Wild Birds","2023","Wild Birds",56
+"22","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2006","Sheep, Goats",53
+"23","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2007","Sheep, Goats",48
+"24","BSE","Bovine spongiform encephalopathy","2007","Cows",39
+"25","HPAI in Poultry","Highly Pathogenic Avian Influenza in Poultry","2022","Poultry",37
+"26","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2008","Sheep, Goats",37
+"27","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2011","Goats, Sheep",37
+"28","West Nile Fever","West Nile Fever (West Nile)","2010","Horses",36
+"29","West Nile Fever","West Nile Fever (West Nile)","2013","Horses",35
+"30","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2010","Sheep, Goats",34
+"31","Bluetongue","Bluetongue","2020","Cows, Sheep, Goats, Wild Animals",32
+"32","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2009","Goats, Sheep",32
+"33","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2017","Sheep, Goats",32
+"34","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2015","Goats, Sheep",30
+"35","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2012","Goats, Sheep",29
+"36","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2018","Goats, Sheep",27
+"37","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2022","Sheep, Goats",27
+"38","Anthrax","Anthrax","2021","Cows, Horses",24
+"39","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2016","Sheep, Goats",24
+"40","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2019","Sheep, Goats",24
+"41","BSE","Bovine spongiform encephalopathy","2008","Cows",23
+"42","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2013","Goats, Sheep",23
+"43","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2014","Sheep, Goats",23
+"44","Sheep and Goat Pox","Sheep pox and goat pox","2022","Sheep, Goats",23
+"45","Mycobacterium tuberculosis","Mycobacterium tuberculosis (Inf. by the complex)","2023","Cows",21
+"46","BSE","Bovine spongiform encephalopathy","2009","Cows",20
+"47","Bluetongue","Bluetongue","2016","Goats, Cows, Sheep",20
+"48","Bluetongue","Bluetongue","2015","Goats, Cows, Sheep",19
+"49","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2020","Sheep, Goats",18
+"50","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2021","Sheep, Goats",18
+"51","West Nile Fever","West Nile Fever (West Nile)","2021","Horses, Wild Animals, Poultry",18
+"52","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2023","Sheep, Goats",17
+"53","West Nile Fever","West Nile Fever (West Nile)","2015","Horses",17
+"54","West Nile Fever","West Nile Fever (West Nile)","2022","Horses, Wild Birds",17
+"55","Aujeszky's Disease","Aujeszky's disease","2018","Pigs",13
+"56","BSE","Bovine spongiform encephalopathy","2010","Cows",13
+"57","Bluetongue","Bluetongue","2018","Cows, Goats, Sheep",13
+"58","Scrapie","Scrapie, Scrapie or Scrapie Scrapie","2005","Sheep, Goats",13
+"59","West Nile Fever","West Nile Fever (West Nile)","2017","Horses",13
+"60","Aujeszky's Disease","Aujeszky's disease","2019","Pigs, NA",11
+"61","Bluetongue","Bluetongue","2003","Sheep",11
+"62","EHD","Epizootic haemorrhagic disease","2022","Cows",11
+"63","Bluetongue","Bluetongue","2011","Goats, Cows, Wild Animals",10
+"64","Bluetongue","Bluetongue","2017","Goats, Cows",10
+"65","HPAI in Poultry","Highly Pathogenic Avian Influenza in Poultry","2017","Poultry",10
+"66","Brucella melitensis","Brucella melitensis (Inf. by)","2021","Sheep, Goats",9
+"67","Mycobacterium tuberculosis","Mycobacterium tuberculosis (Inf. by the complex)","2022","Cows",9
+"68","West Nile Fever","West Nile Fever (West Nile)","2018","Horses",9
+"69","BSE","Bovine spongiform encephalopathy","2012","Cows",8
+"70","West Nile Fever","West Nile Fever (West Nile)","2014","Horses",8
+"71","Bluetongue","Bluetongue","2012","Cows, Wild Animals, Goats",7
+"72","Sheep and Goat Pox","Sheep pox and goat pox","2023","Goats, Sheep",7
+"73","Aujeszky's Disease","Aujeszky's disease","2021","Pigs",6
+"74","West Nile Fever","West Nile Fever (West Nile)","2019","Horses",6
+"75","Aujeszky's Disease","Aujeszky's disease","2020","Pigs",5
+"76","BSE","Bovine spongiform encephalopathy","2011","Cows",5
+"77","West Nile Fever","West Nile Fever (West Nile)","2011","Horses",5
+"78","Anthrax","Anthrax","2022","Cows, Sheep",4
+"79","West Nile Fever","West Nile Fever (West Nile)","2012","Horses",4
+"80","Aujeszky's Disease","Aujeszky's disease","2022","Pigs",3
+"81","BSE","Bovine spongiform encephalopathy","2017","Cows",3
+"82","HPAI in Captive Poultry","Highly Pathogenic Avian Influenza in Captive Poultry","2022","Wild Birds",3
+"83","Marteilia refringens","Marteilia refringens (Inf. by)","2013","Cultivated Mollusks",3
+"84","Newcastle Disease","Newcastle disease","2022","Poultry",3
+"85","Anthrax","Anthrax","2023","Cows",2
+"86","Aujeszky's Disease","Aujeszky's disease","2017","Pigs",2
+"87","Aujeszky's Disease","Aujeszky's disease","2023","Pigs",2
+"88","BSE","Bovine spongiform encephalopathy","2014","Cows",2
+"89","BSE","Bovine spongiform encephalopathy","2019","Cows",2
+"90","BSE","Bovine spongiform encephalopathy","2021","Cows",2
+"91","Bonamia exitiosa Infection","Infection with Bonamia exitiosa","2014","Cultivated Mollusks",2
+"92","Brucella melitensis","Brucella melitensis (Inf. by)","2016","Sheep, Goats",2
+"93","Brucella melitensis","Brucella melitensis (Inf. by)","2018","Cows",2
+"94","EIA","Equine infectious anaemia","2017","Horses",2
+"95","HPAI in Wild Birds","Highly Pathogenic Avian Influenza in Wild Birds","2017","Wild Animals",2
+"96","HPAI in Wild Birds","Highly Pathogenic Avian Influenza in Wild Birds","2021","Wild Animals",2
+"97","BSE","Bovine spongiform encephalopathy","2015","Cows",1
+"98","BSE","Bovine spongiform encephalopathy","2016","Cows",1
+"99","BSE","Bovine spongiform encephalopathy","2020","Cows",1
+"100","BSE","Bovine spongiform encephalopathy","2023","Cows",1
+"101","Bluetongue","Bluetongue","2019","Goats",1
+"102","Bonamia exitiosa Infection","Infection with Bonamia exitiosa","2010","Cultivated Mollusks",1
+"103","Bonamia ostreae Infection","Infection with Bonamia ostreae","2014","Cultivated Mollusks",1
+"104","Brucella abortus","Brucella abortus (Inf. by)","2020","Cows",1
+"105","Brucella melitensis","Brucella melitensis (Inf. by)","2013","Goats",1
+"106","Brucella suis","Brucella suis (Inf. by)","2022","Sheep",1
+"107","HPAI in Poultry","Highly Pathogenic Avian Influenza in Poultry","2009","Poultry",1
+"108","HPAI in Poultry","Highly Pathogenic Avian Influenza in Poultry","2023","Poultry",1
+"109","HPAI in Wild Birds","Highly Pathogenic Avian Influenza in Wild Birds","2006","Wild Animals",1
+"110","HPAI in Wild Birds","Highly Pathogenic Avian Influenza in Wild Birds","2020","Wild Animals",1
+"111","IHN","Infectious haematopoietic necrosis","2005","Fish",1
+"112","Koi Herpesvirus Disease","Koi herpesvirus disease","2011","Fish",1
+"113","LPAI in Poultry","Low Pathogenic Avian Influenza in Poultry","2009","Poultry",1
+"114","LPAI in Poultry","Low Pathogenic Avian Influenza in Poultry","2013","Poultry",1
+"115","LPAI in Wild Birds","Low Pathogenic Avian Influenza in Wild Birds","2008","Wild Animals",1
+"116","Marteilia refringens","Marteilia refringens (Inf. by)","2014","Cultivated Mollusks",1
+"117","Newcastle Disease","Newcastle disease","2009","Poultry",1
+"118","Rabies","Rabies (Inf. by Rabies virus)","2013","Dogs",1
